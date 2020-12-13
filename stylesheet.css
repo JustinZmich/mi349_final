@@ -170,30 +170,28 @@ h2 {
 	flex-wrap: wrap;
 
     margin: 5em auto;
-    margin-bottom: -3%;
 }
 
 .gallery > div {
     border-radius: 10%;
 	width: 30%;
-  	background: #e1dfe1;
-    height: 40%; 
+    height: 30%; 
     margin: 2% 2%;
     flex: 1 1 200px;
 
 }
 
 .gallery > div > img{
-    height: 100%;
     width: 100%;
     border-radius: 10%;
+    box-shadow: rgba(0,0,0, 0.3) 0 10px 10px;
 }
 
 .box {
     position: relative;
     height: 100%;
     width: 100%;
-    box-shadow: rgba(0,0,0, 0.3) 0 10px 10px;
+    
 }
   
 .img__description {
@@ -217,7 +215,7 @@ h2 {
     
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 3%;
     left: 0;
     right: 0;
     background: rgba(225, 223, 225, .65);
