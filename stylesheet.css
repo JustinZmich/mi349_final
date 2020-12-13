@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/* Justin Zmich's final CSS Document. 		12/10/20
+
+Theme Colors:
+Light Shade: #e1dfe1
+Light Accent: #8a9187
+Mid Brand Color: #8d8c82
+Dark Accent: #817468
+Dark Shade: #2e2f34
+
+/* the html element below is the "background" of the page */
+html {
+background-color: #2e2f34;
+}
+
+body {
+	font-family: 'davis-sans', sans-serif;
+	font-family: 'davis-sans', sans-serif;
+    width: 50%;
+    border-radius: 5%;
+    
+    margin: 0 auto;
+    margin-top: 7%;
+
+    background-color: #8d8c82;
+    box-shadow: rgba(0,0,0, 0.4) 5px 10px 20px;
+
+	text-align: center;
+}
+
+h1 {
+    text-shadow: rgba(0,0,0, 0.2) 3px 3px 20px;
+}
+
+h2 {
+    text-shadow: rgba(0,0,0, 0.2) 3px 3px 20px;
+}
+
+
+/* NAVIGATION */
+#navbar {
+	font-size: xx-large;
+    font-weight: bold;
+    
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 80%;
+
+    margin-left: 10%;
+    margin-top: -9%;
+    padding: 0;
+}
+
+#navbar a:hover{ /* NAVIGTION animation*/
+    color:#000000;
+    text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.6);
+    transition: .7s ease-in-out;
+}
+
+#navbar li { /* Edits NAV between elements*/
+
+    display: inline-block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+#navbar a{ /* Edits within each element in NAVIGATION */
+	padding: 1px;
+    color: #2e2f34;
+}
+
+
+
+/* IMAGES */
+
+#logo {
+	box-shadow: rgba(0,0,0, 0.3) 0 10px 10px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -75px;
+}
+
+#resume {
+    width: 100%;
+    margin-bottom: -10%
+}
+
+#face {
+
+    width:220px;
+    object-position: -15px -20px;
+    
+}
+
+#face_bg {
+    float:left;
+
+    box-shadow: rgba(0,0,0, 0.3) 5px 10px 20px;
+    background-color: black;
+    width: 350px;
+    height: 250px;
+
+    margin: 0 -70px;
+    margin-right: 20px;
+
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.cropped{
+
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    
+    position: relative;
+    top: 5%;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+
+    overflow: hidden;
+    border: 2px solid #2e2f34;
+    border-radius: 3%;
+
+    box-shadow: rgba(0,0,0, 0.2) 5px 10px 20px;
+
+    margin: 0 2.5em;
+    margin-top: 3%;
+}
+
+.links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.links li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-inline: 2%;
+}
+
+.links img {
+    width: 100%;
+
+    box-shadow: rgba(0,0,0, 0.2) 5px 10px 20px;
+    border-radius:100px;
+    
+}
+
+#socialmedia_links {
+    padding-top: 1.5em;
+    margin-right: 3em;
+}
+
+/* GALLERY */
+.gallery {
+	height: 400px;
+	width: 725px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+    margin: 5em auto;
+    margin-bottom: -5%;
+}
+
+.gallery > div {
+    border-radius: 10%;
+	width: 30%;
+  	background: #e1dfe1;
+    height: 40%; 
+}
+
+.gallery > div > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(0,0,0, 0.3) 0 10px 10px;
+}
+  
+.img__description {
+
+    font-family: "davis-sans", sans-serif;
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+
+    margin: 0 auto;
+    border-radius: 10%;
+    transition: ease-in-out .8s;
+}
+  
+.center_text {
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(225, 223, 225, .65);
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.box:hover .center_text{
+    visibility: visible;
+    opacity: 1;
+    box-shadow: rgba(0,0,0, 0.5) 0 10px 10px;
+    transition: ease-in-out 1s;
+}
+
+.box:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+  
+
+#footer{
+	font-size:small;
+	line-height: 5px;
+	
+    margin: 5em auto;
+
+    padding: 1%;
+    background-color: #000000;
+
+    border-bottom-left-radius: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
+}
+
+#footer > p{
+    display: block;
+    color: #e1dfe1;
+}
+
+#w3{
+    float: right;
+    margin-right:7%;
+    margin-top:-7%;
+}
+
+/* The code below here alters links */
+
+
+a:link {
+	color: #e1dfe1;
+	text-decoration: none;
+}
+a:visited{
+    color:#8a9187;
+    text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+    color:#817468;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/* Submit Form */
+
+.form1 {
+    padding-top: 5%;
+}
+
+.contactus {
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 5px auto;
+    margin-top: 25px;
+    text-align: left;
+
+    font-family: 'davis-sans', sans-serif;
+    font-size: large;
+}
+
+input {
+    border-radius: 15px;
+}
+
+.textbox {
+    background-color: #e1dfe1;
+    border-style: none;
+    color: #2e2f34;
+
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: larger;
+
+    width:400px;
+}
+
+textarea {
+    border-radius: 30px;
+}
+
+::placeholder {
+    text-indent: 2%;
+    padding: 2%;
+}
+
+#submit {
+    border-style: none;
+
+    background-color: #2e2f34;
+    color: #e1dfe1;
+
+    font-size: larger;
+    font-family: 'davis-sans', sans-serif;
+
+    margin: 3%;
+
+    height: 2em;
+    width: 6em;
+}
+
+#submit:hover {
+    background-color:#000000;
+    transition: 1s ease-in-out;
+}
