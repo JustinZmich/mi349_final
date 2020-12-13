@@ -72,7 +72,6 @@ h2 {
 }
 
 
-
 /* IMAGES */
 
 #logo {
@@ -163,15 +162,15 @@ h2 {
 
 /* GALLERY */
 .gallery {
-	height: 400px;
-	width: 725px;
+	height: auto;
+	width: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
 
     margin: 5em auto;
-    margin-bottom: -5%;
+    margin-bottom: -3%;
 }
 
 .gallery > div {
@@ -179,6 +178,9 @@ h2 {
 	width: 30%;
   	background: #e1dfe1;
     height: 40%; 
+    margin: 2% 2%;
+    flex: 1 1 200px;
+
 }
 
 .gallery > div > img{
