@@ -362,8 +362,7 @@ textarea {
       padding: 0 auto;
       align-content: center;
       justify-content: space-between;
-      max-height: 600px;
-      max-width: 600px;
+      width: 80%;
     }
 
     body {
