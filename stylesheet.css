@@ -362,7 +362,7 @@ textarea {
       padding: 0 auto;
       align-content: center;
       justify-content: space-between;
-      width: 80%;
+      width: auto;
       max-height: 600px;
     }
 
