@@ -17,9 +17,12 @@ body {
 	font-family: 'davis-sans', sans-serif;
 	font-family: 'davis-sans', sans-serif;
     max-width: 800px;
-    min-width:450px;
+    min-width:200px;
+    height: fit-content;
     border-top-left-radius: 25px 25px;
     border-top-right-radius: 25px 25px;
+    border-bottom-left-radius: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
     
     margin: 0 auto;
     margin-top: 7%;
@@ -165,13 +168,12 @@ h2 {
 /* GALLERY */
 .gallery {
 	max-height: auto;
-	width: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
 
-    margin: 5em auto;
+    margin: 0 auto;
 }
 
 .gallery > div {
@@ -247,7 +249,7 @@ h2 {
 	font-size:small;
 	line-height: 5px;
 	
-    margin: 5em auto;
+    margin: 0 auto;
 
     padding: 1%;
     background-color: #000000;
