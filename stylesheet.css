@@ -359,8 +359,7 @@ textarea {
 @media only screen and (max-width:600px) {
     .gallery {
       flex-direction:column;
-      flex-shrink: 1;
-      padding: 0 auto;
+      padding: 10px;
       align-content: center;
       justify-content: space-around;
       max-height: 600px;
@@ -369,6 +368,7 @@ textarea {
 
     .box {
         transform: scale(.9);
+        margin: 10px;
     }
 
 
