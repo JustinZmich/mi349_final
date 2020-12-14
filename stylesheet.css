@@ -240,10 +240,10 @@ h2 {
 
 @media screen and (min-width:600px) {
     .gallery {
-      flex-wrap: wrap;
+      flex-direction:column;
     }
     .box {
-      flex-basis: 100px;
+        width: 25%;
     }
 
   
