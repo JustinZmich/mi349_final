@@ -362,12 +362,13 @@ textarea {
       flex-shrink: 1;
       padding: 0 auto;
       align-content: center;
-      justify-content: space-between;
+      justify-content: space-around;
       max-height: 600px;
+      margin: 0 auto;
     }
 
     .box {
-        transform: scale(.8);
+        transform: scale(.9);
     }
 
 
