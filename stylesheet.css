@@ -362,17 +362,21 @@ textarea {
       padding: 0 auto;
       align-content: center;
       justify-content: space-between;
-      width: 80%;
+      width: 100%;
     }
 
     .box {
-        width: 50%;
+        width: 100px;
     }
+
+
 
     body {
         border-top-left-radius: 25px 25px;
         border-top-right-radius: 25px 25px;
         width: 80%;
+
+        margin-top: 50px;
     }
 
     #logo {
