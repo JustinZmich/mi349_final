@@ -365,8 +365,13 @@ textarea {
       width: 80%;
     }
 
+    .box {
+        width: 50%;
+    }
+
     body {
-        border-radius: 10%;
+        border-top-left-radius: 25px 25px;
+        border-top-right-radius: 25px 25px;
         width: 80%;
     }
 
@@ -380,6 +385,7 @@ textarea {
 
     #w3 {
         width: 10%;
+        margin-top: 1%;
     }
     
 }
