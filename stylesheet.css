@@ -169,14 +169,14 @@ h2 {
 	justify-content: space-between;
 	flex-wrap: wrap;
 
+    background-color: #000000;
     margin: 5em auto;
 }
 
 .gallery > div {
     border-radius: 10%;
-	width: 25%;
-    height: 25%; 
-    margin: 2% 2%;
+    width: 200px;
+    margin: 2%;
     flex: 1 1 auto;
 
 }
@@ -195,7 +195,6 @@ h2 {
 }
   
 .img__description {
-
     font-family: "davis-sans", sans-serif;
     position: absolute;
     top: 35%;
@@ -238,6 +237,14 @@ h2 {
     visibility: visible;
     opacity: 1;
 }
+
+@media screen and (min-width:600px) {
+    .gallery {
+      flex-wrap: wrap;
+    }
+    .box {
+      flex-basis: 100px;
+    }
 
   
 
