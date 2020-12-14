@@ -364,4 +364,18 @@ textarea {
       justify-content: space-between;
       max-height: 600px;
       max-width: 600px;
+    }
+
+    #logo {
+        width: 50px;
+    }
+
+    #footer{
+        margin-top: 5px;
+    }
+
+    #w3 {
+        width: 50%;
+    }
+    
 }
