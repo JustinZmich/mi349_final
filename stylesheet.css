@@ -162,14 +162,13 @@ h2 {
 
 /* GALLERY */
 .gallery {
-	height: auto;
+	max-height: auto;
 	width: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
 
-    background-color: #000000;
     margin: 5em auto;
 }
 
@@ -238,13 +237,7 @@ h2 {
     opacity: 1;
 }
 
-@media screen and (min-width:600px) {
-    .gallery {
-      flex-direction:column;
-    }
-    .box {
-        width: 25%;
-    }
+
 
   
 
@@ -358,4 +351,17 @@ textarea {
 #submit:hover {
     background-color:#000000;
     transition: 1s ease-in-out;
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+    .gallery {
+      flex-direction:column;
+      padding: 0 auto;
+      align-content: center;
+      justify-content: space-between;
+      max-height: 600px;
+      max-width: 600px;
 }
