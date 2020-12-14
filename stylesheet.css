@@ -166,7 +166,6 @@ h2 {
 
 /* GALLERY */
 .gallery {
-	max-height: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -216,7 +215,7 @@ h2 {
     
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 3%;
     left: 0;
     right: 0;
     background: rgba(225, 223, 225, .65);
@@ -365,8 +364,10 @@ textarea {
     body {
         margin-top: 100px;
         transform: scale(.9);
-        
     }
 
+    #w3 {
+        transform: scale(.5);
+    }
 
   }
