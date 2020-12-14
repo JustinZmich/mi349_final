@@ -366,13 +366,6 @@ textarea {
       transform: scale(.8);
     }
 
-    .box {
-        transform: scale(.9);
-        margin: -10px;
-    }
-
-
-
     body {
         border-top-left-radius: 25px 25px;
         border-top-right-radius: 25px 25px;
