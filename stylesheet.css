@@ -374,13 +374,14 @@ textarea {
     body {
         border-top-left-radius: 25px 25px;
         border-top-right-radius: 25px 25px;
-        width: 80%;
+        width: 90%;
 
         margin-top: 50px;
     }
 
     #logo {
         width: 100px;
+        margin-top: 50px;
     }
 
     #footer{
