@@ -363,12 +363,12 @@ textarea {
       align-content: center;
       justify-content: space-around;
       max-height: 600px;
-      margin: 0 auto;
+      margin: 0;
     }
 
     .box {
         transform: scale(.9);
-        margin: 10px;
+        margin: -10px;
     }
 
 
