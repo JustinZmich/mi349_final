@@ -366,16 +366,20 @@ textarea {
       max-width: 600px;
     }
 
+    body {
+        border-radius: 20%;
+    }
+
     #logo {
-        width: 50px;
+        width: 100px;
     }
 
     #footer{
-        margin-top: 5px;
+        margin-bottom: -10px;
     }
 
     #w3 {
-        width: 50%;
+        width: 5%;
     }
     
 }
