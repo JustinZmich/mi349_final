@@ -363,10 +363,7 @@ textarea {
       align-content: center;
       justify-content: space-between;
       width: 100%;
-    }
-
-    .box {
-        width: 50px;
+      max-height: 600px;
     }
 
 
@@ -376,12 +373,12 @@ textarea {
         border-top-right-radius: 25px 25px;
         width: 90%;
 
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     #logo {
         width: 100px;
-        margin-top: 5px;
+        margin-top: -45px;
     }
 
     #footer{
