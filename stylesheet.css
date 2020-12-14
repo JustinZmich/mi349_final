@@ -367,7 +367,8 @@ textarea {
     }
 
     body {
-        border-radius: 20%;
+        border-radius: 10%;
+        width: 80%;
     }
 
     #logo {
@@ -379,7 +380,7 @@ textarea {
     }
 
     #w3 {
-        width: 5%;
+        width: 10%;
     }
     
 }
